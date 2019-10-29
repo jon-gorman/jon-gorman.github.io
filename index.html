@@ -1,15 +1,42 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Towers of Hanoi</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<div>
-	<h1>Hello World</h1>
-</div>
+  <!-- <audio id="song" autoplay>
+  <source src="moon.mp3" type="audio/mp3">
+</audio> -->
+
+  <div id="announce-game-won">
+    <h1></h1>
+  </div>
+  <outer>
+    <section>
+      <div data-stack="1">
+        <div class="draggable" data-block="125"></div>
+        <div class="draggable" data-block="100"></div>
+        <div class="draggable" data-block="75"></div>
+        <div class="draggable" data-block="50"></div>
+        <div class="draggable" data-block="25"></div>
+      </div>
+      <div data-stack="2">
+      </div>
+      <div data-stack="3">
+      </div>
+
+    </section>
+  </outer>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+  <script src="jquery.ui.touch-punch.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
